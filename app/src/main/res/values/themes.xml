@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launch</item>
+        <item name="postSplashScreenTheme">@style/Theme.Material3.DayNight.NoActionBar</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFFFFFFF</item>
+        <item name="colorPrimaryDark">#FFFFFFFF</item>
+        <item name="android:windowBackground">@drawable/launch</item>
+        <item name="android:navigationBarColor">#FFFFFFFF</item>
+    </style>
+
+</resources>
