@@ -33,7 +33,7 @@ import kotlin.math.abs
 import kotlin.random.Random
 
 @HiltViewModel
-class InsertViewModel @Inject constructor(
+class InsertVi ewModel @Inject constructor(
     private val repository: Repository
 ) : ViewModel() {
 
